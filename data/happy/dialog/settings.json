@@ -1,0 +1,29 @@
+{
+    "type": "notice",
+    "title":"HappyGhast+ settings",
+  "inputs":[
+    {
+      "type":"number_range",
+      "key":"flying_speed",
+      "label":"HappyGhast Flying Speed",
+      "start":50,
+      "end":170,
+      "step":10
+    },
+    {
+      "type":"number_range",
+      "key":"resistance",
+      "label":"HappyGhast Resistance",
+      "start":0,
+      "end":4,
+      "step":1
+    }
+  ],
+  "action":{
+    "label":"Confirm",
+    "action":{
+      "type":"dynamic/run_command",
+      "template":"function happy:settings/change_settings {flying_speed:$(flying_speed),resistance:$(resistance)}"
+    }
+  }
+}
