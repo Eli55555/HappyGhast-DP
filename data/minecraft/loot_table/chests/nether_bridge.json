@@ -22,6 +22,28 @@
         },
         {
           "type": "minecraft:item",
+          "name": "book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "options": [
+                "happy:propeller"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "happy.settings.flying_speed": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
