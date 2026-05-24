@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "name": "book",
-          "weight": 3,
+          "weight": 6,
           "functions": [
             {
               "function": "enchant_randomly",
@@ -52,7 +52,7 @@
               "entity": "this",
               "scores": {
                 "happy.settings.move": 2,
-                "happy.settings.loot": 0
+                "happy.settings.loot": 1
               }
             }
           ]
