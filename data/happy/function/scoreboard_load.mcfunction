@@ -3,6 +3,8 @@ scoreboard objectives add happy.settings.resistance dummy
 scoreboard objectives add happy.settings.move dummy
 scoreboard objectives add happy.settings.config dummy
 
+scoreboard objectives add happy.happyghast.flying_speed dummy
+
 
 
 
