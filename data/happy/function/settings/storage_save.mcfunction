@@ -22,5 +22,6 @@ execute if score happyghast+ happy.settings.resistance matches 5 run data merge 
 execute if score happyghast+ happy.settings.resistance matches 6 run data merge storage happy:settings {resistance:[{id:"6",display:"Enchantment"},{id:"0",display:"Disabled"},{id:"1",display:"I"},{id:"2",display:"II"},{id:"3",display:"III"},{id:"4",display:"IV"},{id:"5",display:"Invincible"}]}
 
 # Happy Ghast Move
-execute if score happyghast+ happy.settings.move matches 0 run data merge storage happy:settings {happy_move:[{id:"0",display:"Disabled"},{id:"1",display:"Enabled"}]}
-execute if score happyghast+ happy.settings.move matches 1 run data merge storage happy:settings {happy_move:[{id:"1",display:"Enabled"},{id:"0",display:"Disabled"}]}
+execute if score happyghast+ happy.settings.move matches 0 run data merge storage happy:settings {happy_move:[{id:"0",display:"Disabled"},{id:"1",display:"Enabled"},{id:"2",display:"Enchantment"}]}
+execute if score happyghast+ happy.settings.move matches 1 run data merge storage happy:settings {happy_move:[{id:"1",display:"Enabled"},{id:"2",display:"Enchantment"},{id:"0",display:"Disabled"}]}
+execute if score happyghast+ happy.settings.move matches 2 run data merge storage happy:settings {happy_move:[{id:"2",display:"Enchantment"},{id:"0",display:"Disabled"},{id:"1",display:"Enabled"}]}

@@ -5,6 +5,7 @@
       {"text":"\n"},
       {"text":"↪ Made by: Eli12_5","color":"yellow"}
     ],
+    "pack_format": 81,
     "min_format": [88],
     "max_format": [101,1]
   }

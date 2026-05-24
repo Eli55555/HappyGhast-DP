@@ -14,3 +14,4 @@ scoreboard players add happyghast+ happy.settings.resistance 0
 scoreboard players add happyghast+ happy.settings.move 0
 scoreboard players add happyghast+ happy.settings.config 0 
 
+scoreboard players set @e[type=happy_ghast] happy.happyghast.flying_speed -1

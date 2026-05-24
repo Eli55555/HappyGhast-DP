@@ -1,0 +1,31 @@
+{
+  "description": {
+    "text": "Anchor",
+    "color": "yellow"
+  },
+  "supported_items": "#minecraft:harnesses",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 51,
+    "per_level_above_first": 11
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "happy:enchantment/anchor"
+        }
+      }
+    ]
+  }
+}
