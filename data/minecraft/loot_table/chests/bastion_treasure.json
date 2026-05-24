@@ -33,7 +33,8 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "happy.settings.resistance": 6
+                "happy.settings.resistance": 6,
+                "happy.settings.loot": 0
               }
             }
           ]

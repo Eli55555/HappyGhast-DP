@@ -37,7 +37,8 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "happy.settings.flying_speed": 11
+                "happy.settings.flying_speed": 11,
+                "happy.settings.loot": 0
               }
             }
           ]

@@ -1,6 +1,7 @@
 $scoreboard players set happyghast+ happy.settings.flying_speed $(flying_speed)
 $scoreboard players set happyghast+ happy.settings.resistance $(resistance)
 $scoreboard players set happyghast+ happy.settings.move $(happy_move)
+$scoreboard players set happyghast+ happy.settings.loot $(loot)
 execute if score happyghast+ happy.settings.config matches 0 run scoreboard players set happyghast+ happy.settings.config 1
 
 

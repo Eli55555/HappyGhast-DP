@@ -51,7 +51,8 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "happy.settings.move": 2
+                "happy.settings.move": 2,
+                "happy.settings.loot": 0
               }
             }
           ]

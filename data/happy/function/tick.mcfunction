@@ -1,3 +1,7 @@
+execute if score happyghast+ happy.settings.loot matches 1 run scoreboard players set @a happy.settings.loot 1
+execute unless score happyghast+ happy.settings.loot matches 1 run scoreboard players set @a happy.settings.loot 0
+
+
 #   Flying Speed
 execute if score happyghast+ happy.settings.flying_speed matches 11 run scoreboard players set @a happy.settings.flying_speed 11
 execute unless score happyghast+ happy.settings.flying_speed matches 11 run scoreboard players set @a happy.settings.flying_speed 0

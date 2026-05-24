@@ -19,13 +19,19 @@ $dialog show @s {\
       "key": "happy_move",\
       "label": {"text": "Happy Ghast Anchor", "hover_event": {"action": "show_text", "value": "Enables or disables the Happy Ghast's movement when no one is riding it."}},\
       "options": $(happy_move)\
+    },\
+    {\
+      "type": "minecraft:single_option",\
+      "key": "loot",\
+      "label": {"text": "Enchantment Loot", "hover_event": {"action": "show_text", "value": "Controls whether Enchantment books can be found in chests."}},\
+      "options": $(loot)\
     }\
   ],\
   "action": {\
     "label": "Confirm",\
     "action": {\
       "type": "dynamic/run_command",\
-      "template": "function happy:settings/change_settings {flying_speed:\u0024(flying_speed),resistance:\u0024(resistance),happy_move:\u0024(happy_move)}"\
+      "template": "function happy:settings/change_settings {flying_speed:\u0024(flying_speed),resistance:\u0024(resistance),happy_move:\u0024(happy_move),loot:\u0024(loot)}"\
     }\
   }\
 }
