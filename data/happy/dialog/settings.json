@@ -1,29 +1,126 @@
 {
-    "type": "notice",
-    "title":"HappyGhast+ settings",
-  "inputs":[
+  "type": "notice",
+  "title": "HappyGhast+ settings",
+  "inputs": [
     {
-      "type":"number_range",
-      "key":"flying_speed",
-      "label":"HappyGhast Flying Speed",
-      "start":50,
-      "end":170,
-      "step":10
+      "type": "minecraft:single_option",
+      "key": "flying_speed",
+      "label": "HappyGhast Flying Speed",
+      "options": [
+        {
+          "id": "0",
+          "display": "Standard"
+        },
+        {
+          "id": "1",
+          "display": "+20%"
+        },
+        {
+          "id": "2",
+          "display": "+40%"
+        },
+        {
+          "id": "3",
+          "display": "+60%"
+        },
+        {
+          "id": "4",
+          "display": "+80%"
+        },
+        {
+          "id": "5",
+          "display": "+100%"
+        },
+        {
+          "id": "6",
+          "display": "+120%"
+        },
+        {
+          "id": "7",
+          "display": "+140%"
+        },
+        {
+          "id": "8",
+          "display": "+160%"
+        },
+        {
+          "id": "9",
+          "display": "+180%"
+        },
+        {
+          "id": "10",
+          "display": "+200%"
+        },
+        {
+          "id": "11",
+          "display": "Enchantment"
+        }
+      ]
     },
     {
-      "type":"number_range",
-      "key":"resistance",
-      "label":"HappyGhast Resistance",
-      "start":0,
-      "end":4,
-      "step":1
+      "type": "minecraft:single_option",
+      "key": "resistance",
+      "label": "HappyGhast Resistance",
+      "options": [
+        {
+          "id": "0",
+          "display": "Disabled"
+        },
+        {
+          "id": "1",
+          "display": "I"
+        },
+        {
+          "id": "2",
+          "display": "II"
+        },
+        {
+          "id": "3",
+          "display": "III"
+        },
+        {
+          "id": "4",
+          "display": "IV"
+        },
+        {
+          "id": "5",
+          "display": "Invincible"
+        },
+        {
+          "id": "6",
+          "display": "Enchantment"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "happylock",
+      "label": {
+        "text": "Happy Ghast Lock",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Disables the Happy Ghast's movement when no one is riding it."
+        }
+      },
+      "options": [
+        {
+          "id": "0",
+          "display": "Disabled"
+        },
+        {
+          "id": "1",
+          "display": "Enabled"
+        }
+      ]
     }
   ],
-  "action":{
-    "label":"Confirm",
-    "action":{
-      "type":"dynamic/run_command",
-      "template":"function happy:settings/change_settings {flying_speed:$(flying_speed),resistance:$(resistance)}"
+  "action": {
+    "label": {
+      "text": "Confirm"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "function happy:settings/change_settings {flying_speed:$(flying_speed),resistance:$(resistance),happylock:$(happylock)}"
     }
   }
 }
