@@ -1,6 +1,6 @@
 {
   "description": {
-    "text": "Propeller",
+    "text": "Resistance",
     "color": "yellow"
   },
   "supported_items": "#minecraft:harnesses",
@@ -21,7 +21,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "happy:enchantment/propeller"
+          "function": "happy:enchantment/resistance"
         }
       }
     ]

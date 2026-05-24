@@ -17,7 +17,7 @@ $dialog show @s {\
     {\
       "type": "minecraft:single_option",\
       "key": "happy_move",\
-      "label": {"text": "Happy Ghast Move", "hover_event": {"action": "show_text", "value": "Enables or disables the Happy Ghast's movement when no one is riding it."}},\
+      "label": {"text": "Happy Ghast Anchor", "hover_event": {"action": "show_text", "value": "Enables or disables the Happy Ghast's movement when no one is riding it."}},\
       "options": $(happy_move)\
     }\
   ],\
