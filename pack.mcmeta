@@ -1,6 +1,11 @@
 {
   "pack": {
-    "pack_format": 81,
-    "description": "HappyGhast+ Datapack"
+    "description": [
+      {"text":"↪ Happy Ghast+ V.2.0","color":"yellow"},
+      {"text":"\n"},
+      {"text":"↪ Made by: Eli12_5","color":"yellow"}
+    ],
+    "min_format": [88],
+    "max_format": [101,1]
   }
 }

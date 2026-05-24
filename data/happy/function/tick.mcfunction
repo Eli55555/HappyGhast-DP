@@ -39,6 +39,5 @@ execute if score happyghast+ happy.settings.resistance matches 5 as @e[type=happ
 
 
 # Move
-execute if score happyghast+ happy.settings.move matches 1 as @e[type=happy_ghast] unless predicate happy:player_flying run effect give @s slowness 1 255 true
-execute if score happyghast+ happy.settings.move matches 1 as @e[type=happy_ghast] if predicate happy:player_flying run effect clear @s slowness
+execute if score happyghast+ happy.settings.move matches 1 as @e[type=happy_ghast] unless predicate happy:player_flying run attribute @s flying_speed base set 0
 
