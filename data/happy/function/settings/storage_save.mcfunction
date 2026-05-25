@@ -27,5 +27,5 @@ execute if score happyghast+ happy.settings.move matches 1 run data merge storag
 execute if score happyghast+ happy.settings.move matches 2 run data merge storage happy:settings {happy_move:[{id:"2",display:"Enchantment"},{id:"0",display:"Disabled"},{id:"1",display:"Enabled"}]}
 
 # Loot
-execute if score happyghast+ happy.settings.loot matches 0 run data merge storage happy:settings {loot:[{id:"1",display:"Enabled"},{id:"0",display:"Disabled"}]}
-execute if score happyghast+ happy.settings.loot matches 1 run data merge storage happy:settings {loot:[{id:"0",display:"Disabled"},{id:"1",display:"Enabled"}]}
+execute if score happyghast+ happy.settings.loot matches 0 run data merge storage happy:settings {loot:[{id:"0",display:"Disabled"},{id:"1",display:"Enabled"}]}
+execute if score happyghast+ happy.settings.loot matches 1 run data merge storage happy:settings {loot:[{id:"1",display:"Enabled"},{id:"0",display:"Disabled"}]}
